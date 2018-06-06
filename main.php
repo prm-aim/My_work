@@ -38,4 +38,5 @@ echo "<article>
 			</section>
 		</div>
 	</<article>";
+echo "<p><a href='parsing.php'>Парсинг сайта.</a></p><br>";
 ?>
