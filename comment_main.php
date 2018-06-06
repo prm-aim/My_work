@@ -11,7 +11,7 @@ if ($id_trade == 1)
 					<legend>Ваш отзыв:</legend>
 					<p><label>Ваша Фамилия Имя Отчество: </label></p>
 						<input type='text' placeholder='Не более 90 лисмолов' size='90' maxlength='90' required
-							pattern='[а-яА-Я]{1,90}' name='name'/>
+							pattern='[а-яА-Я ]{1,90}' name='name'/>
 					<p><label>Ваш отзыв о книге: </label></p>
 						<textarea name='comment' maxlength='1000' cols='90' rows='8' autofocus required placeholder='Не более 1000 символов'></textarea>
 					<p><label>Ваш номер телефона: </label></p>
@@ -37,7 +37,7 @@ if ($id_trade == 2)
 					<legend>Ваш отзыв:</legend>
 					<p><label>Ваша Фамилия Имя Отчество: </label></p>
 						<input type='text' placeholder='Не более 90 лисмолов' size='90' maxlength='90' required
-							pattern='[а-яА-Я]{1,90}' name='name'/>
+							pattern='[а-яА-Я ]{1,90}' name='name'/>
 					<p><label>Ваш отзыв о книге: </label></p>
 						<textarea name='text' maxlength='1000' cols='90' rows='8' autofocus required placeholder='Не более 1000 символов'></textarea>
 					<p><label>Ваш номер телефона: </label></p>
