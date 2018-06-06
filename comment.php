@@ -1,13 +1,15 @@
 <?php
 header( 'Content-Type: text/html; charset=utf8' );
+//Проверка на передачу значения методом GET
+if (isset($_GET['id'])){$id_trade = $_GET['id'];}
 ?>
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset='utf-8'>
-        <title>Документ HTML5</title>
-		<meta name='description' content='Учебное задание'>
-		<meta name='keywords' content='Документ HTML5'>
+        <title>Отзыв книги</title>
+		<meta name='description' content='Отзыв о книге'>
+		<meta name='keywords' content='Озтыв'>
         <meta name='author' content='Ankudinov I.M.'>
 		<link href="style/style.css" rel="stylesheet" type="text/css">
     </head>
@@ -16,7 +18,7 @@ header( 'Content-Type: text/html; charset=utf8' );
 			<?php include ("header.php");?>
 		</header>
 		<main role="main">
-			<?php include ("main.php");?>
+			<?php include ("comment_main.php");?>
 		</main>
 		<footer>
 			<?php include ("footer.php");?>
